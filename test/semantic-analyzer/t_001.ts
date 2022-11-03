@@ -1,5 +1,9 @@
 // 验证各种赋值
 export const pycode = `\
+
+
+
+
 age = 10
 age = 11
 age += 10
