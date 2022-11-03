@@ -1,9 +1,10 @@
 # Python语法检测Demo
 
-### 关于我实现的Python语法检测SDK
-- 开发该库的目的是轻松集成到编辑器，使编辑器具有语法检测功能。
-- 完全前端实现，不依赖服务端，完全覆盖Python3.10语法，线上应用可参考https://editor.imwatt.com/。
+### 关于我开发的Python语法检测SDK
+- 完全前端实现，不依赖服务端，100%覆盖Python3.10语法，轻松集成到任何编辑器。
+- 线上应用可参考https://editor.imwatt.com
 - 使用中遇到问题可联系我, 微信: mumuhou001, 邮箱mumuhou001@gmail.com
+
 
 ### 关于这个Demo
 - 由于接口使用很简单，所以这个Demo里并没有集成编辑器。
