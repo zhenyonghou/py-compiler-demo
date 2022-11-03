@@ -9,7 +9,7 @@
 ### 关于这个Demo
 - 由于接口使用很简单，所以这个Demo里并没有集成编辑器。
 - Python语法检测SDK位置: /lib/PC.js
-- 使用方法看这里: /test/semantic-analyzer/index.ts
+- 如何使用看这里: /test/semantic-analyzer/index.ts
 - 测试case在这里: /test/semantic-analyzer/t_*
 
 ### 该Demo如何在本地运行
