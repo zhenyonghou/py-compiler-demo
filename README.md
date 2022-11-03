@@ -1,17 +1,22 @@
 # Python语法检测Demo
 
-## 关于我实现的Python语法检测库
-> 开发该库的目的是轻松集成到编辑器，使编辑器具有语法检测功能。
-> 完全前端实现，不依赖服务端，完全覆盖Python3.10语法，线上应用可参考https://editor.imwatt.com/。
-> Python语法检测SDK放在了/lib/PC.js里
-> 测试代码放在了/test/semantic-analyzer/index目录
-> 使用中遇到问题可联系我, 微信: mumuhou001, 邮箱mumuhou001@gmail.com
+### 关于我实现的Python语法检测SDK
+- 开发该库的目的是轻松集成到编辑器，使编辑器具有语法检测功能。
+- 完全前端实现，不依赖服务端，完全覆盖Python3.10语法，线上应用可参考https://editor.imwatt.com/。
+- 使用中遇到问题可联系我, 微信: mumuhou001, 邮箱mumuhou001@gmail.com
 
-## 该Demo如何在本地运行
-> npm run start
-> 然后打开http://localhost:8203/
-> 浏览器的控制台打印运行信息
+### 关于这个Demo
+- 由于接口使用很简单，所以这个Demo里并没有集成编辑器。
+- Python语法检测SDK位置: /lib/PC.js
+- 使用方法看这里: /test/semantic-analyzer/index.ts
+- 测试case在这里: /test/semantic-analyzer/t_*
 
+### 该Demo如何在本地运行
+1. npm run start
+2. 然后打开http://localhost:8203/
+3. 打开浏览器的控制台，查看运行信息
+
+## 接口文档
 ### Compiler类
 ```typescript
 class Compiler {
