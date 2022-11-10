@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     mode: "production",
     entry: {
-        index: './src/index.ts',
+        index: './src/index.js',
     },
     output: {
         filename: '[name].[chunkhash:4].js',
