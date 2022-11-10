@@ -1,11 +1,10 @@
+export const pycode = `\
+a = 1 + 2
 
-import {pycode} from './t_001'
-// import PC from '../../lib/PC.js'
+`
 
-export const start = () => {
-    // console.log(PC)
-    // 异步加载，需要在tsconfig.json里设置"module": "esnext", 也可以同步加载。
-    import("../../lib/PC.js").then((module: any) => {
+window.onload = () => {
+    import("../lib/PC.js").then((module: any) => {
         const pc = new module.default.Compiler()
         const ast = pc.parse(pycode)
         if (pc.hasError()) {    // 检查编译错误
@@ -18,6 +17,7 @@ export const start = () => {
         if (ast == null) {
             return
         }
+        console.log(ast)
 
         const symbols = pc.getSymbolTable().match("a", 3, 1)
         console.log("symbols:", symbols)
