@@ -5,6 +5,7 @@ a = 1 + 2
 
 window.onload = () => {
     import("../lib/PC.js").then((module: any) => {
+        console.log('code:', pycode)
         const pc = new module.default.Compiler()
         const ast = pc.parse(pycode)
         if (pc.hasError()) {    // 检查编译错误
@@ -17,7 +18,7 @@ window.onload = () => {
         if (ast == null) {
             return
         }
-        console.log(ast)
+        console.log('ast:', ast)
 
         const symbols = pc.getSymbolTable().match("a", 3, 1)
         console.log("symbols:", symbols)
