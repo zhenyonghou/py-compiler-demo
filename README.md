@@ -1,7 +1,7 @@
 # py-lang
 
 #### PC.xxx.js
-> PC是Python Compiler的缩写，将源代码编译为ast，这个库严格解析Python3.10语法，集成了词法分析-语法分析-语义分析
+> PC是Python Compiler的缩写，集成了词法分析-语法分析-语义分析，将源代码编译为ast，严格遵照Python3.10语法规范.
 
 #### PI.xxx.js (过段时间放出)
 > PI是Python Interpreter的缩写，解释执行ast, 配合PC.xxx.js使用.
