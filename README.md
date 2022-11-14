@@ -1,24 +1,23 @@
 # py-lang
 
-### PC.xxx.js
+#### PC.xxx.js
 > PC是Python Compiler的缩写，将源代码编译为ast，这个库严格解析Python3.10语法，集成了词法分析-语法分析-语义分析
 
-### PI.xxx.js (过段时间放出)
-> PC是Python Interpreter的缩写，解释执行ast, 配合PC.xxx.js使用.
+#### PI.xxx.js (过段时间放出)
+> PI是Python Interpreter的缩写，解释执行ast, 配合PC.xxx.js使用.
 
 ### 特性
 - 完全前端实现，不依赖服务端
-- 100%覆盖Python3.10语法，轻松集成到任何编辑器。
+- 100%覆盖Python3.10语法，轻松集成到任何编辑器
 - 线上应用: https://editor.imwatt.com
 - 使用中遇到问题可联系我, 微信: mumuhou001, 邮箱mumuhou001@gmail.com
 
 ### 如何使用
 - 由于接口使用很简单，所以这个Demo里并没有集成编辑器。
-- 位置: /lib/PC.xxx.js，提供了esm, umd, cjs三种格式，区别及加载方式请自行搜索。
-- 如何使用看这里: /src/index.ts
-- 测试case在这里: /test/semantic-analyzer/t_*
+- library位置: /lib/PC.xxx.js，提供了esm, umd, cjs三种格式，推荐esm和umd，区别及加载方式请自行搜索。
+- Demo看这里: /src/index.ts
 
-### 该Demo如何在本地运行
+### 运行Demo
 1. npm run start
 2. 然后打开http://localhost:8203/
 3. 打开浏览器的控制台，查看运行信息
