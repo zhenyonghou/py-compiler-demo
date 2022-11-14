@@ -5,7 +5,7 @@ const PORT = 8203;
 module.exports = {
     mode: 'development',
     entry: {
-        test: './test/index.ts'
+        test: './src/index.ts'
     },
     output: {
         filename: '[name].js',

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1668440554523" clover="3.2.0">
+  <project timestamp="1668440554524" name="All files">
+    <metrics statements="1" coveredstatements="1" conditionals="2450" coveredconditionals="1669" methods="1123" coveredmethods="938" elements="3574" coveredelements="2608" complexity="0" loc="1" ncloc="1" packages="1" files="1" classes="1"/>
+    <file name="PC.esm.js" path="/Users/mac/w/coding-for-kids/py-lang/lib/PC.esm.js">
+      <metrics statements="1" coveredstatements="1" conditionals="2450" coveredconditionals="1669" methods="1123" coveredmethods="938"/>
+      <line num="1" count="126157" type="cond" truecount="1669" falsecount="781"/>
+    </file>
+  </project>
+</coverage>
