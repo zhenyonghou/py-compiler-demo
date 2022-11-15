@@ -1,21 +1,20 @@
 # py-lang
 
 #### PC.xxx.js
-> PC是Python Compiler的缩写，集成了词法分析-语法分析-语义分析，将源代码编译为ast，当前支持的Python版本:3.10.
+> PC是Python Compiler的缩写，集成了词法分析-语法分析-语义分析，将源代码编译为ast，可作为在线语法检测器使用.
 
 #### PI.xxx.js (过段时间放出)
 > PI是Python Interpreter的缩写，解释执行ast, 配合PC.xxx.js使用.
 
 ### 特性
 - 完全前端实现，不依赖服务端
-- 100%覆盖Python3.10语法，轻松集成到任何编辑器
+- 覆盖Python3.10语法，轻松集成到任何编辑器
 - 线上应用: https://editor.imwatt.com
-- 使用中遇到问题可联系我, 微信: mumuhou001, 邮箱mumuhou001@gmail.com
 
 ### 如何使用
-- 由于接口使用很简单，所以这个Demo里并没有集成编辑器。
+- 由于接口很简单，所以Demo里并没有集成编辑器。
 - library位置: /lib/PC.xxx.js，提供了esm, umd, cjs三种格式，三种格式的加载方式可以看知乎的[这篇文章](https://zhuanlan.zhihu.com/p/304552279)。
-- Demo看这里: /src/index.ts
+- 演示代码看这里: /src/index.ts
 
 ### 运行Demo
 1. npm run start
@@ -24,6 +23,9 @@
 
 ### 运行test case
 - npm run test
+
+#### 问题反馈
+- 使用中遇到问题可联系我, 微信: mumuhou001(注明Python), 邮箱mumuhou001@gmail.com
 
 ## 接口文档
 ### Compiler类
